@@ -18,8 +18,8 @@
         });
 			embeddedservice_bootstrap.init(
 				'00D8d00000Az0S2',
-				'GetHub',
-				'https://arat.my.site.com/ESWGetHub1710934458827',
+				'Platform_Web_Chat',
+				'https://arat.my.site.com/ESWPlatformWebChat1707284468867',
 				{
 					scrt2URL: 'https://arat.my.salesforce-scrt.com'
 				}
