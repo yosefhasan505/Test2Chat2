@@ -18,8 +18,8 @@
         });
 			embeddedservice_bootstrap.init(
 				'00D8d00000Az0S2',
-				'Platform_Web_Chat',
-				'https://arat.my.site.com/ESWPlatformWebChat1707284468867',
+				'GetHub',
+				'https://arat.my.site.com/ESWGetHub1710934458827',
 				{
 					scrt2URL: 'https://arat.my.salesforce-scrt.com'
 				}
@@ -29,7 +29,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://arat.my.site.com/ESWPlatformWebChat1707284468867/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://arat.my.site.com/ESWGetHub1710934458827/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
  </Body>
  </HTML>
