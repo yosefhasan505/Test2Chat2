@@ -1,14 +1,15 @@
 <HTML>
   <Body> 
 <script type='text/javascript'>
-    function initEmbeddedMessaging() {
-        try {
-            embeddedservice_bootstrap.settings.language = 'en'; // For example, enter 'en' or 'en-US'
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en'; // For example, enter 'en' or 'en-US'
+        
         window.addEventListener("onEmbeddedMessagingReady", () => {
             console.log("Received the onEmbeddedMessagingReady event…");
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({ 
-            "PlatformUserEmail" : "yose.505@gmail.com" , 
-            "PlatformUserType" : "Borrower",
+            "PlatformUserEmail" : "" , 
+            "PlatformUserType" : "",
             "PlatformUserID" : "45345345345" ,
             "PlatformUserFirstName" : "Yosef",
             "PlatformUserLastName" : "Hasan",
