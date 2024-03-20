@@ -4,10 +4,6 @@
     function initEmbeddedMessaging() {
         try {
             embeddedservice_bootstrap.settings.language = 'en-US'; // For example, enter 'en' or 'en-US'
-
-
-    
-        
         window.addEventListener("onEmbeddedMessagingReady", () => {
             console.log("Received the onEmbeddedMessagingReady event…");
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({ 
@@ -19,10 +15,6 @@
             "PlatformUserLanguage" : "Arabic"}
             );
         });
-
-
-
-
             embeddedservice_bootstrap.init(
                 '00D8d00000Az0S2',
                 'Platform_Web_Chat',
@@ -35,5 +27,8 @@
             console.error('Error loading Embedded Messaging: ', err);
         }
     };
+</script>
+<script type='text/javascript' src='https://arat.my.site.com/ESWPlatformWebChat1707284468867/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
  </Body>
  </HTML>
