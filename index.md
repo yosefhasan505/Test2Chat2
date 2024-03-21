@@ -8,8 +8,8 @@
         window.addEventListener("onEmbeddedMessagingReady", () => {
             console.log("Received the onEmbeddedMessagingReady event…");
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({ 
-            "PlatformUserEmail" : "" , 
-            "PlatformUserType" : "",
+            "PlatformUserEmail" : "PersonAccount@gmail.com" , 
+            "PlatformUserType" : "Borrower",
             "PlatformUserID" : "45345345345" ,
             "PlatformUserFirstName" : "Yosef",
             "PlatformUserLastName" : "Hasan",
